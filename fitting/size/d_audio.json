@@ -1,0 +1,218 @@
+[
+	{
+		"DistName": "generalized pareto",
+		"NLogL": 37676596.93,
+		"BIC": 75353237.89,
+		"AIC": 75353199.86,
+		"AICc": 75353199.86,
+		"ParamNames": [
+			"k",
+			"sigma",
+			"theta"
+		],
+		"ParamDescription": [
+			"shape",
+			"scale",
+			"threshold"
+		],
+		"Params": [3.776394061,67176.96527,-2.220446049e-15],
+		"Paramci": [
+			[3.769383023,66824.53947,-2.220446049e-15],
+			[3.783405099,67531.24973,-2.220446049e-15]
+		],
+		"ParamCov": [
+			[1.279583112e-05,-0.3485036939,0],
+			[-0.3485036939,32502.9382,0],
+			[0,0,0]
+		],
+		"Support": {
+			"range": [-2.220446049e-15,"_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "generalized extreme value",
+		"NLogL": 37678537.85,
+		"BIC": 75357119.74,
+		"AIC": 75357081.7,
+		"AICc": 75357081.7,
+		"ParamNames": [
+			"k",
+			"sigma",
+			"mu"
+		],
+		"ParamDescription": [
+			"shape",
+			"scale",
+			"location"
+		],
+		"Params": [3.671384373,1549261.421,421559.3266],
+		"Paramci": {
+			"_ArrayType_": "double",
+			"_ArraySize_": [2,3],
+			"_ArrayIsComplex_": 1,
+			"_ArrayData_": [
+				["-_Inf_",0],
+				[3.674824788,0],
+				["-_Inf_",0],
+				[1549140.69,-19340.95656],
+				["-_Inf_",0],
+				[421559.3266,-5430.574476]
+			]
+		},
+		"ParamCov": [
+			[3.081239371e-06,8.171987176,1.872913865],
+			[8.171987176,-97382805.03,-27429353.48],
+			[1.872913865,-27429353.48,-7677067.624]
+		],
+		"Support": {
+			"range": [-423.572436,"_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "exponential",
+		"NLogL": 38638747.12,
+		"BIC": 77277508.91,
+		"AIC": 77277496.23,
+		"AICc": 77277496.23,
+		"ParamNames": [
+			"mu"
+		],
+		"ParamDescription": [
+			"mean"
+		],
+		"Params": 4400813.751,
+		"Paramci": [
+			[4395217.321],
+			[4406420.925]
+		],
+		"ParamCov": 8168806.39,
+		"Support": {
+			"range": [0,"_Inf_"],
+			"closedbound": [1,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "tlocationscale",
+		"NLogL": 39646756.03,
+		"BIC": 79293556.1,
+		"AIC": 79293518.07,
+		"AICc": 79293518.07,
+		"ParamNames": [
+			"mu",
+			"sigma",
+			"nu"
+		],
+		"ParamDescription": [
+			"location",
+			"scale",
+			"degrees of freedom"
+		],
+		"Params": [2206884.758,2722376.938,2.215363148],
+		"Paramci": [
+			[2201392.364,2717826.486,2.208080582],
+			[2212377.152,2726935.008,2.222669732]
+		],
+		"ParamCov": [
+			[7852848.695,3211208.42,5.1214012],
+			[3211208.42,5399322.892,5.002697892],
+			[5.1214012,5.002697892,1.385167363e-05]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "logistic",
+		"NLogL": 40187765.86,
+		"BIC": 80375561.08,
+		"AIC": 80375535.72,
+		"AICc": 80375535.72,
+		"ParamNames": [
+			"mu",
+			"sigma"
+		],
+		"ParamDescription": [
+			"location",
+			"scale"
+		],
+		"Params": [3091871.11,2874318.695],
+		"Paramci": [
+			[3085852.342,2871128.404],
+			[3097889.878,2877512.531]
+		],
+		"ParamCov": [
+			[9430158.358,499759.7545],
+			[499759.7545,2652447.212]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "normal",
+		"NLogL": 42517306.33,
+		"BIC": 85034642.01,
+		"AIC": 85034616.66,
+		"AICc": 85034616.66,
+		"ParamNames": [
+			"mu",
+			"sigma"
+		],
+		"ParamDescription": [
+			"location",
+			"scale"
+		],
+		"Params": [4400813.751,14861513.29],
+		"Paramci": [
+			[4381896.516,14848148.9],
+			[4419730.986,14874901.93]
+		],
+		"ParamCov": [
+			[93157686.28,-2.258098799e-08],
+			[-2.258098799e-08,46578872.61]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "extreme value",
+		"NLogL": 49200410.24,
+		"BIC": 98400849.83,
+		"AIC": 98400824.48,
+		"AICc": 98400824.48,
+		"ParamNames": [
+			"mu",
+			"sigma"
+		],
+		"ParamDescription": [
+			"location",
+			"scale"
+		],
+		"Params": [36124880.79,345402046.5],
+		"Paramci": [
+			[35669868.8,345273033.9],
+			[36579892.78,345531107.4]
+		],
+		"ParamCov": [
+			[5.389512675e+10,-3936392531],
+			[-3936392531,4334417774]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	}
+]

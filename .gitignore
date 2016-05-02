@@ -1,3 +1,8 @@
 .idea	
 .idea/*
 data/*
+*.dat
+*.mat
+*.csv
+filesize*
+filetype*

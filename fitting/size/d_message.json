@@ -1,0 +1,209 @@
+[
+	{
+		"DistName": "generalized pareto",
+		"NLogL": 1110624.58,
+		"BIC": 2221283.551,
+		"AIC": 2221255.161,
+		"AICc": 2221255.161,
+		"ParamNames": [
+			"k",
+			"sigma",
+			"theta"
+		],
+		"ParamDescription": [
+			"shape",
+			"scale",
+			"threshold"
+		],
+		"Params": [2.194836697,4794.324632,-2.220446049e-15],
+		"Paramci": [
+			[2.173103047,4709.552068,-2.220446049e-15],
+			[2.216570348,4880.623114,-2.220446049e-15]
+		],
+		"ParamCov": [
+			[0.0001229615085,-0.2362667853,0],
+			[-0.2362667853,1904.36756,0],
+			[0,0,0]
+		],
+		"Support": {
+			"range": [-2.220446049e-15,"_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "generalized extreme value",
+		"NLogL": 1110946.009,
+		"BIC": 2221926.409,
+		"AIC": 2221898.019,
+		"AICc": 2221898.019,
+		"ParamNames": [
+			"k",
+			"sigma",
+			"mu"
+		],
+		"ParamDescription": [
+			"shape",
+			"scale",
+			"location"
+		],
+		"Params": [2.161704187,7584.211246,3423.043543],
+		"Paramci": [
+			[2.14892665,7465.562072,3370.270974],
+			[2.174481723,7704.746096,3475.816111]
+		],
+		"ParamCov": [
+			[4.250089475e-05,0.09543645427,-0.01729420557],
+			[0.09543645427,3722.821135,1546.332122],
+			[-0.01729420557,1546.332122,724.9704203]
+		],
+		"Support": {
+			"range": [-85.39729403,"_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "tlocationscale",
+		"NLogL": 1167604.044,
+		"BIC": 2335242.478,
+		"AIC": 2335214.087,
+		"AICc": 2335214.088,
+		"ParamNames": [
+			"mu",
+			"sigma",
+			"nu"
+		],
+		"ParamDescription": [
+			"location",
+			"scale",
+			"degrees of freedom"
+		],
+		"Params": [2821.270532,3818.993088,0.4317270571],
+		"Paramci": [
+			[2771.395178,3763.730859,0.4280408299],
+			[2871.145886,3875.066723,0.4354450296]
+		],
+		"ParamCov": [
+			[647.5537142,368.0795292,0.01609158357],
+			[368.0795292,806.6464637,0.02415637469],
+			[0.01609158357,0.02415637469,3.567709075e-06]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "exponential",
+		"NLogL": 1297462.187,
+		"BIC": 2594935.837,
+		"AIC": 2594926.374,
+		"AICc": 2594926.374,
+		"ParamNames": [
+			"mu"
+		],
+		"ParamDescription": [
+			"mean"
+		],
+		"Params": 306583.026,
+		"Paramci": [
+			[304644.4937],
+			[308540.2064]
+		],
+		"ParamCov": 987644.6304,
+		"Support": {
+			"range": [0,"_Inf_"],
+			"closedbound": [1,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "logistic",
+		"NLogL": 1395170.655,
+		"BIC": 2790364.237,
+		"AIC": 2790345.31,
+		"AICc": 2790345.31,
+		"ParamNames": [
+			"mu",
+			"sigma"
+		],
+		"ParamDescription": [
+			"location",
+			"scale"
+		],
+		"Params": [290155.3086,275287.1325],
+		"Paramci": [
+			[284735.1749,272490.0763],
+			[295575.4423,278112.8998]
+		],
+		"ParamCov": [
+			[7647576.236,3375651.019],
+			[3375651.019,2057489.55]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "normal",
+		"NLogL": 1608499.705,
+		"BIC": 3217022.336,
+		"AIC": 3217003.41,
+		"AICc": 3217003.41,
+		"ParamNames": [
+			"mu",
+			"sigma"
+		],
+		"ParamDescription": [
+			"location",
+			"scale"
+		],
+		"Params": [306583.026,5296600.011],
+		"Paramci": [
+			[272931.6336,5272912.25],
+			[340234.4184,5320503.043]
+		],
+		"ParamCov": [
+			[294780565.9,-1.022344032e-08],
+			[-1.022344032e-08,147392606.1]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "extreme value",
+		"NLogL": 1907584.776,
+		"BIC": 3815192.478,
+		"AIC": 3815173.551,
+		"AICc": 3815173.552,
+		"ParamNames": [
+			"mu",
+			"sigma"
+		],
+		"ParamDescription": [
+			"location",
+			"scale"
+		],
+		"Params": [19156813.19,166586713.8],
+		"Paramci": [
+			[18054785.29,166240795.9],
+			[20258841.09,166933351.6]
+		],
+		"ParamCov": [
+			[3.161469511e+11,-2.768144844e+10],
+			[-2.768144844e+10,3.121423564e+10]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	}
+]

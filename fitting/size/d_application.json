@@ -1,0 +1,209 @@
+[
+	{
+		"DistName": "generalized extreme value",
+		"NLogL": 301535182.5,
+		"BIC": 603070416.2,
+		"AIC": 603070371,
+		"AICc": 603070371,
+		"ParamNames": [
+			"k",
+			"sigma",
+			"mu"
+		],
+		"ParamDescription": [
+			"shape",
+			"scale",
+			"location"
+		],
+		"Params": [2.175808047,7600.106019,3420.754429],
+		"Paramci": [
+			[2.175012715,7592.303719,3417.547498],
+			[2.176603378,7607.916338,3423.961359]
+		],
+		"ParamCov": [
+			[1.646645772e-07,0.0006692723668,7.034728925e-05],
+			[0.0006692723668,15.8633611,6.176296627],
+			[7.034728925e-05,6.176296627,2.677212722]
+		],
+		"Support": {
+			"range": [-72.24948338,"_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "generalized pareto",
+		"NLogL": 301582524.3,
+		"BIC": 603165099.8,
+		"AIC": 603165054.6,
+		"AICc": 603165054.6,
+		"ParamNames": [
+			"k",
+			"sigma",
+			"theta"
+		],
+		"ParamDescription": [
+			"shape",
+			"scale",
+			"threshold"
+		],
+		"Params": [2.36970112,4250.72871,-2.220446049e-15],
+		"Paramci": [
+			[2.368371249,4246.315012,-2.220446049e-15],
+			[2.371030992,4255.146996,-2.220446049e-15]
+		],
+		"ParamCov": [
+			[4.603872452e-07,-0.0006373945402,0],
+			[-0.0006373945402,5.076451784,0],
+			[0,0,0]
+		],
+		"Support": {
+			"range": [-2.220446049e-15,"_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "tlocationscale",
+		"NLogL": 315636962,
+		"BIC": 631273975.2,
+		"AIC": 631273930,
+		"AICc": 631273930,
+		"ParamNames": [
+			"mu",
+			"sigma",
+			"nu"
+		],
+		"ParamDescription": [
+			"location",
+			"scale",
+			"degrees of freedom"
+		],
+		"Params": [1431.888551,1674.345133,0.3265091135],
+		"Paramci": [
+			[1430.705564,1672.57932,0.3263456181],
+			[1433.071539,1676.112811,0.3266726908]
+		],
+		"ParamCov": [
+			[0.3643043136,0.2527853259,1.458186466e-05],
+			[0.2527853259,0.8125525073,3.40972711e-05],
+			[1.458186466e-05,3.40972711e-05,6.961974582e-09]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "logistic",
+		"NLogL": 335643924.4,
+		"BIC": 671287882.9,
+		"AIC": 671287852.8,
+		"AICc": 671287852.8,
+		"ParamNames": [
+			"mu",
+			"sigma"
+		],
+		"ParamDescription": [
+			"location",
+			"scale"
+		],
+		"Params": [1113577.066,416332.909],
+		"Paramci": [
+			["-_Inf_","-_Inf_"],
+			["_Inf_","_Inf_"]
+		],
+		"ParamCov": [
+			["_NaN_","_NaN_"],
+			["_NaN_","_NaN_"]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "exponential",
+		"NLogL": 383856449.6,
+		"BIC": 767712916.3,
+		"AIC": 767712901.2,
+		"AICc": 767712901.2,
+		"ParamNames": [
+			"mu"
+		],
+		"ParamDescription": [
+			"mean"
+		],
+		"Params": 1113577.299,
+		"Paramci": [
+			[1113147.082],
+			[1114007.766]
+		],
+		"ParamCov": 48209.27505,
+		"Support": {
+			"range": [0,"_Inf_"],
+			"closedbound": [1,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "normal",
+		"NLogL": 479545850.2,
+		"BIC": 959091734.5,
+		"AIC": 959091704.3,
+		"AICc": 959091704.3,
+		"ParamNames": [
+			"mu",
+			"sigma"
+		],
+		"ParamDescription": [
+			"location",
+			"scale"
+		],
+		"Params": [1113577.299,30226869.71],
+		"Paramci": [
+			[1101896.132,30218612.15],
+			[1125258.465,30235131.81]
+		],
+		"ParamCov": [
+			[35520266.15,7.053316503e-09],
+			[7.053316503e-09,17760134.11]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	},
+	{
+		"DistName": "extreme value",
+		"NLogL": 560524593.3,
+		"BIC": 1121049221,
+		"AIC": 1121049191,
+		"AICc": 1121049191,
+		"ParamNames": [
+			"mu",
+			"sigma"
+		],
+		"ParamDescription": [
+			"location",
+			"scale"
+		],
+		"Params": [75963968.8,992732378.3],
+		"Paramci": [
+			[75568782.25,992629828.6],
+			[76359155.36,992834938.5]
+		],
+		"ParamCov": [
+			[4.065445504e+10,-2531543628],
+			[-2531543628,2737897569]
+		],
+		"Support": {
+			"range": ["-_Inf_","_Inf_"],
+			"closedbound": [0,0],
+			"iscontinuous": 1
+		}
+	}
+]

@@ -88,39 +88,14 @@ done
 
 2. generar tabla.dat, para cada perfile
     * sid, time
+
         hacer un merge de todas las tables
-
-    * time
-        solamente se consideran las operaciones de 
-        * Unlink, 
-        * Put, 
-        * Move,
-        * Make,
-        * Get,
-        
-        
-
-
 
 3. arrancar matlab i calcular allfitdist.m
     * guardar los variables para cada stereotype + op, op
 
-    * hecho, se ha generado json de cada perfil
-
-
-
-
-
 4. meter parsear los variables generados en el utils de modulo de datagenerator
     * generar los variables con el formato que hay en el modulo workload_generator.utils
-
-
-
-
-
-
-
-
 
 5. actualizar las recetas.
     * finish cooking recipe.
@@ -140,10 +115,4 @@ operation_chain,PutContentResponse,Unlink,978,genpareto,{'shape':5.5953230451229
 operation_chain,Unlink,MoveResponse,318,genpareto,{'shape':4.05974572112893,'scale':0.230971524365217,'threshold':0.0200000000185978}
 operation_chain,Unlink,PutContentResponse,1053,genpareto,{'shape':3.13573091706067,'scale':0.746839394368102,'threshold':0.00100000016390778}
 operation_chain,Unlink,Unlink,18057,genpareto,{'shape':0.949044501927819,'scale':0.0508355787457194,'threshold':0.0249999999068978}
-
-
-# hay que considerar solamente en los que impliquen
-# Unlink, Put, Move
-# aunque podriamos extraer de todos.
-
 ```
